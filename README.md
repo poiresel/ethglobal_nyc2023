@@ -1,11 +1,6 @@
-# 🏗 Scaffold-ETH 2
+# HOA DAO for ETHNY 2023
 
-<h4 align="center">
-  <a href="https://docs.scaffoldeth.io">Documentation</a> |
-  <a href="https://scaffoldeth.io">Website</a>
-</h4>
-
-🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
+Built off of the Scaffold-Eth2 Framework
 
 ⚙️ Built using NextJS, RainbowKit, Hardhat, Wagmi, and Typescript.
 
@@ -65,14 +60,18 @@ Run smart contract test with `yarn hardhat:test`
 - Edit your frontend in `packages/nextjs/pages`
 - Edit your deployment scripts in `packages/hardhat/deploy`
 
-## Documentation
 
-Visit our [docs](https://docs.scaffoldeth.io) to learn how to start building with Scaffold-ETH 2.
+# Scroll Sepolia Deploys
 
-To know more about its features, check out our [website](https://scaffoldeth.io).
+HOA DAO + Slogan Proposal
 
-## Contributing to Scaffold-ETH 2
+deploying "SloganProposal" (tx: 0x029109a6d8b2619078f24fb08bb91e1ed861f8b776eb6b3f7091ef9                9ebae4e07)...: deployed at 0x7FC5258b8659014a3E95Daf8C242E7B2a868dc2e with 512556 gas
+deploying "WrappedGHOToken" (tx: 0xa92e0f3952fd021f64313d04dded525bd42f995304864f6b91b2a9173d9e7b1e)...: deployed at 0x6d96A3c560C85e20615a30f938849b780627B6F1 with 2337796 gas
+deploying "HOAGovernanceToken" (tx: 0xf12c762b443028ac370903e540683de34fbf886939e587e8b6f84de254de4af5)...: deployed at 0x1808b9B6D1aE63a1BDbC6db01C1656C4c2708BeE with 2143327 gas
+deploying "Timelock" (tx: 0x0003ce8e1434034a22a5b298fb730d2ed23fd7842a70af154914a2419f6a22e8)...: deployed at 0xC8FC93979Dc7fEdb6404B4DAaF7e81c621c20e10 with 1912033 gas
+deploying "HOAGovernor" (tx: 0xa2db59ee9d681298a71ac6cf86d6d0a56d3228d11e952b26e868b52ed8fac4b1)...: deployed at 0xe9B1Fe58299868Ea93F19e660b14E14f9157aFE5 with 4855067 gas
 
-We welcome contributions to Scaffold-ETH 2!
+Snapshot for ths proposal
 
-Please see [CONTRIBUTING.MD](https://github.com/scaffold-eth/scaffold-eth-2/blob/main/CONTRIBUTING.md) for more information and guidelines for contributing to Scaffold-ETH 2.
+The strategy goes cross chain across both Sepolia and Sepolia Scroll to sum up USDC tokens.
+https://demo.snapshot.org/#/hoadao.eth/proposal/0x7632709ed21adc7cd89387dca9f2a43f2aa33dbba168ae65a62e374c53302bdd
